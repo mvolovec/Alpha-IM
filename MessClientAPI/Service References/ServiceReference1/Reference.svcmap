@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fc3c1013-c1ea-4211-91c4-0de7058c3690" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://beatle.cz/MessagingService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MessagingService.xsd" MetadataType="Schema" ID="9ca8df97-02a5-4372-903b-a6d48d08f23a" SourceId="1" SourceUrl="http://beatle.cz/MessagingService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MessagingService1.xsd" MetadataType="Schema" ID="fb5aa92b-6933-419c-b8ac-0159942dbe67" SourceId="1" SourceUrl="http://beatle.cz/MessagingService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MessagingService.disco" MetadataType="Disco" ID="822683a8-e974-4632-b951-276c1a4c70ad" SourceId="1" SourceUrl="http://beatle.cz/MessagingService.svc?disco" />
+    <MetadataFile FileName="MessagingService2.xsd" MetadataType="Schema" ID="b7f699da-6456-4c3f-906c-e535f85b525a" SourceId="1" SourceUrl="http://beatle.cz/MessagingService.svc?xsd=xsd3" />
+    <MetadataFile FileName="MessagingService3.xsd" MetadataType="Schema" ID="dbb58a7e-a793-4827-bf39-cbe40f342c8e" SourceId="1" SourceUrl="http://beatle.cz/MessagingService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MessagingService.wsdl" MetadataType="Wsdl" ID="121eac02-a5e0-413f-8ae1-b7663d3b824d" SourceId="1" SourceUrl="http://beatle.cz/MessagingService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

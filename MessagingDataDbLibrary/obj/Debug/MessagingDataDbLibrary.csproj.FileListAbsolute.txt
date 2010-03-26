@@ -1,0 +1,24 @@
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll.config
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.pdb
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MessagingDataDbLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.dll
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll.config
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MessagingDataDbLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll.config
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll.config
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.pdb

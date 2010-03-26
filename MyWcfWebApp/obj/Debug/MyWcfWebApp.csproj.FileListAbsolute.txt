@@ -1,0 +1,15 @@
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyWcfWebApp\bin\MyWcfWebApp.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyWcfWebApp\bin\MyWcfWebApp.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyWcfWebApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyWcfWebApp\obj\Debug\MyWcfWebApp.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyWcfWebApp\obj\Debug\MyWcfWebApp.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\bin\MyWcfWebApp.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\bin\MyWcfWebApp.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\obj\Debug\ResolveAssemblyReference.cache
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\obj\Debug\MyWcfWebApp.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\obj\Debug\MyWcfWebApp.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\bin\MyWcfWebApp.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\bin\MyWcfWebApp.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\obj\Debug\ResolveAssemblyReference.cache
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\obj\Debug\MyWcfWebApp.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyWcfWebApp\obj\Debug\MyWcfWebApp.pdb

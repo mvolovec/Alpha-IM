@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D2474E7-57A0-445B-B4A1-E7CF0418D2D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WPF_IM_CLIENT</RootNamespace>
+    <AssemblyName>WPF_IM_CLIENT</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="ChatWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StylesDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatWindow.xaml.cs">
+      <DependentUpon>ChatWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\ImageConverter.cs" />
+    <Compile Include="LoginDialog.xaml.cs">
+      <DependentUpon>LoginDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Converters\WindowSizeConverter.cs" />
+    <Compile Include="WindowTemplate.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MessClientAPI\MessClientAPI.csproj">
+      <Project>{D757F93B-724E-40BC-A5DA-A0D624F36AD8}</Project>
+      <Name>MessClientAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MessDataLayer\MessDataLayer.csproj">
+      <Project>{A899BEEB-A564-4020-A99C-EE3DE70AFB82}</Project>
+      <Name>MessDataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\about.png" />
+    <Resource Include="Images\add.png" />
+    <Resource Include="Images\address book.png" />
+    <Resource Include="Images\adim.png" />
+    <Resource Include="Images\app.png" />
+    <Resource Include="Images\applications.png" />
+    <Resource Include="Images\apply.png" />
+    <Resource Include="Images\apps.png" />
+    <Resource Include="Images\back.png" />
+    <Resource Include="Images\ball_green.png" />
+    <Resource Include="Images\ball_red.png" />
+    <Resource Include="Images\ball_yellow.png" />
+    <Resource Include="Images\bookmark.png" />
+    <Resource Include="Images\calculator.png" />
+    <Resource Include="Images\calendar.png" />
+    <Resource Include="Images\cancel.png" />
+    <Resource Include="Images\cd.png" />
+    <Resource Include="Images\chart.png" />
+    <Resource Include="Images\chat.png" />
+    <Resource Include="Images\computer.png" />
+    <Resource Include="Images\configure.png" />
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\database.png" />
+    <Resource Include="Images\del.png" />
+    <Resource Include="Images\delete.png" />
+    <Resource Include="Images\documents.png" />
+    <Resource Include="Images\down.png" />
+    <Resource Include="Images\download.png" />
+    <Resource Include="Images\edit.png" />
+    <Resource Include="Images\energy.png" />
+    <Resource Include="Images\export.png" />
+    <Resource Include="Images\fast forward.png" />
+    <Resource Include="Images\favorites.png" />
+    <Resource Include="Images\favorites_new.png" />
+    <Resource Include="Images\fax.png" />
+    <Resource Include="Images\file_apply.png" />
+    <Resource Include="Images\file_cancel.png" />
+    <Resource Include="Images\file_del.png" />
+    <Resource Include="Images\file_find.png" />
+    <Resource Include="Images\file_locked.png" />
+    <Resource Include="Images\file_temp.png" />
+    <Resource Include="Images\file_web.png" />
+    <Resource Include="Images\flag.png" />
+    <Resource Include="Images\folder.png" />
+    <Resource Include="Images\folder_find.png" />
+    <Resource Include="Images\folder_new.png" />
+    <Resource Include="Images\forward.png" />
+    <Resource Include="Images\games.png" />
+    <Resource Include="Images\go.png" />
+    <Resource Include="Images\hard disk.png" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\history.png" />
+    <Resource Include="Images\home.png" />
+    <Resource Include="Images\import.png" />
+    <Resource Include="Images\info2.png" />
+    <Resource Include="Images\key.png" />
+    <Resource Include="Images\large_icons.png" />
+    <Resource Include="Images\lock.png" />
+    <Resource Include="Images\mail.png" />
+    <Resource Include="Images\map.png" />
+    <Resource Include="Images\money.png" />
+    <Resource Include="Images\move.png" />
+    <Resource Include="Images\music.png" />
+    <Resource Include="Images\music2.png" />
+    <Resource Include="Images\network.png" />
+    <Resource Include="Images\network_app.png" />
+    <Resource Include="Images\network_find.png" />
+    <Resource Include="Images\new.png" />
+    <Resource Include="Images\notepad.png" />
+    <Resource Include="Images\object.png" />
+    <Resource Include="Images\open.png" />
+    <Resource Include="Images\options.png" />
+    <Resource Include="Images\pack.png" />
+    <Resource Include="Images\pack2.png" />
+    <Resource Include="Images\paint.png" />
+    <Resource Include="Images\paste.png" />
+    <Resource Include="Images\pause.png" />
+    <Resource Include="Images\phone.png" />
+    <Resource Include="Images\pictures.png" />
+    <Resource Include="Images\play.png" />
+    <Resource Include="Images\preferences.png" />
+    <Resource Include="Images\print.png" />
+    <Resource Include="Images\print_preview.png" />
+    <Resource Include="Images\redo.png" />
+    <Resource Include="Images\refresh.png" />
+    <Resource Include="Images\rewind.png" />
+    <Resource Include="Images\save as.png" />
+    <Resource Include="Images\save.png" />
+    <Resource Include="Images\save_as_2.png" />
+    <Resource Include="Images\search.png" />
+    <Resource Include="Images\shopping cart.png" />
+    <Resource Include="Images\shopping cart2.png" />
+    <Resource Include="Images\skip forward.png" />
+    <Resource Include="Images\star.png" />
+    <Resource Include="Images\stop.png" />
+    <Resource Include="Images\tools.png" />
+    <Resource Include="Images\trash.png" />
+    <Resource Include="Images\undo.png" />
+    <Resource Include="Images\unlocked.png" />
+    <Resource Include="Images\up.png" />
+    <Resource Include="Images\upload.png" />
+    <Resource Include="Images\user.png" />
+    <Resource Include="Images\users.png" />
+    <Resource Include="Images\web_conect.png" />
+    <Resource Include="Images\web_link.png" />
+    <Resource Include="Images\web_server.png" />
+    <Resource Include="Images\wizard.png" />
+    <Resource Include="Images\zoom_in.png" />
+    <Resource Include="Images\zoom_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\win_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\win_close.png" />
+    <Resource Include="Images\win_maximize.png" />
+    <Resource Include="Images\win_minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Styles\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

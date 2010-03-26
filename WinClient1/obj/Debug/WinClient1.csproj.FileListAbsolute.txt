@@ -1,0 +1,69 @@
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\bin\Debug\WinClient1.exe
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\bin\Debug\WinClient1.pdb
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.Form1.resources
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.Properties.Resources.resources
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.csproj.GenerateResource.Cache
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.exe
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.pdb
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\WinClient1\bin\Debug\WinClient1.exe.config
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\bin\Debug\WinClient1.exe.config
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.exe
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\bin\Debug\WinClient1.exe
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\bin\Debug\WinClient1.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.Properties.Resources.resources
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.csproj.GenerateResource.Cache
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\bin\Debug\Decav.Windows.Forms.Controls.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.MessagingWinForm.resources
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.ContactList.resources
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.RegistrationWindow.resources
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\bin\Debug\MessClientAPI.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\bin\Debug\MessClientAPI.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.ChatWindow.resources
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.LoginWindow.resources
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\UserControls\ContactListControl.baml
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\UserControls\ContactListControl.g.cs
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1_MarkupCompile.cache
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WinClient1\obj\Debug\WinClient1.g.resources
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\WinClient1.exe.config
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.exe
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\WinClient1.exe
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\WinClient1.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\Decav.Windows.Forms.Controls.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\MessClientAPI.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\MessClientAPI.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\ResolveAssemblyReference.cache
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\UserControls\ContactListControl.baml
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\UserControls\ContactListControl.g.cs
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1_MarkupCompile.cache
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.g.resources
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.ChatWindow.resources
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.ContactList.resources
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.LoginWindow.resources
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.MessagingWinForm.resources
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.Properties.Resources.resources
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.RegistrationWindow.resources
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.csproj.GenerateResource.Cache
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\WinClient1.exe.config
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.exe
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\WinClient1.exe
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\WinClient1.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\Decav.Windows.Forms.Controls.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\MessClientAPI.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\bin\Debug\MessClientAPI.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\ResolveAssemblyReference.cache
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\UserControls\ContactListControl.baml
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\UserControls\ContactListControl.g.cs
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1_MarkupCompile.cache
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.g.resources
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.ChatWindow.resources
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.ContactList.resources
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.LoginWindow.resources
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.MessagingWinForm.resources
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.Properties.Resources.resources
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.RegistrationWindow.resources
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.csproj.GenerateResource.Cache

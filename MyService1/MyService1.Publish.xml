@@ -1,0 +1,82 @@
+<publishData>
+  <publishTarget publishUrl="C:\Inetpub\wwwroot\messService\">
+    <file relUrl="MessagingService.svc" publishTime="05/23/2009 11:54:04" />
+    <file relUrl="bin/.svn/text-base/MessagingDataDbLibrary.dll.svn-base" publishTime="05/25/2009 07:14:49" />
+    <file relUrl="bin/MessagingDataDbLibrary.dll" publishTime="03/01/2010 19:01:35" />
+    <file relUrl="bin/.svn/text-base/MyService1.dll.svn-base" publishTime="05/25/2009 07:15:03" />
+    <file relUrl="web.config" publishTime="03/01/2010 18:59:17" />
+    <file relUrl="bin/.svn/prop-base/MyService1.dll.svn-base" publishTime="05/25/2009 07:14:43" />
+    <file relUrl="bin/MessDataLayer.dll" publishTime="03/01/2010 19:01:36" />
+    <file relUrl="bin/.svn/prop-base/MessDataLayer.pdb.svn-base" publishTime="05/25/2009 07:14:43" />
+    <file relUrl="bin/.svn/prop-base/MyService1.pdb.svn-base" publishTime="05/25/2009 07:14:43" />
+    <file relUrl="bin/MessagingDataDbLibrary.pdb" publishTime="03/01/2010 19:01:35" />
+    <file relUrl="bin/.svn/format" publishTime="05/25/2009 07:14:43" />
+    <file relUrl="bin/.svn/text-base/MessDataLayer.pdb.svn-base" publishTime="05/25/2009 07:14:53" />
+    <file relUrl="bin/.svn/text-base/MessDataLayer.dll.svn-base" publishTime="05/25/2009 07:14:54" />
+    <file relUrl="bin/.svn/text-base/MessagingDataDbLibrary.pdb.svn-base" publishTime="05/25/2009 07:14:49" />
+    <file relUrl="bin/.svn/prop-base/MessagingDataDbLibrary.pdb.svn-base" publishTime="05/25/2009 07:14:43" />
+    <file relUrl="bin/MyService1.pdb" publishTime="03/01/2010 19:01:50" />
+    <file relUrl="bin/MessDataLayer.pdb" publishTime="03/01/2010 19:01:36" />
+    <file relUrl="bin/.svn/text-base/MyService1.pdb.svn-base" publishTime="05/25/2009 07:15:02" />
+    <file relUrl="bin/.svn/entries" publishTime="05/25/2009 07:15:13" />
+    <file relUrl="bin/MyService1.dll" publishTime="03/01/2010 19:01:50" />
+    <file relUrl="urlService.ashx" publishTime="12/06/2008 17:00:01" />
+    <file relUrl="bin/.svn/prop-base/MessagingDataDbLibrary.dll.svn-base" publishTime="05/25/2009 07:14:43" />
+    <file relUrl="bin/.svn/prop-base/MessDataLayer.dll.svn-base" publishTime="05/25/2009 07:14:43" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\MessService\">
+    <file relUrl="bin/MyService1.pdb" publishTime="05/23/2009 11:08:12" />
+    <file relUrl="bin/MyService1.dll" publishTime="05/23/2009 11:08:12" />
+    <file relUrl="MessagingService.svc" publishTime="11/08/2008 17:21:47" />
+    <file relUrl="urlService.ashx" publishTime="12/06/2008 17:00:01" />
+    <file relUrl="web.config" publishTime="05/23/2009 11:06:06" />
+    <file relUrl="bin/MessagingDataDbLibrary.pdb" publishTime="05/23/2009 11:08:03" />
+    <file relUrl="bin/MessagingDataDbLibrary.dll" publishTime="05/23/2009 11:08:03" />
+    <file relUrl="bin/MessDataLayer.dll" publishTime="05/23/2009 11:08:11" />
+    <file relUrl="bin/MessDataLayer.pdb" publishTime="05/23/2009 11:08:11" />
+  </publishTarget>
+  <publishTarget publishUrl="ftp://chrobok.aspone.cz/www/">
+    <file relUrl="MessagingService.svc" publishTime="11/08/2008 17:21:47" />
+    <file relUrl="bin/MessagingDataDbLibrary.dll" publishTime="11/10/2008 16:12:12" />
+    <file relUrl="bin/MessagingDataDbLibrary.pdb" publishTime="11/10/2008 16:12:11" />
+    <file relUrl="bin/MyService1.dll" publishTime="11/10/2008 16:12:12" />
+    <file relUrl="Web.config" publishTime="11/10/2008 17:32:16" />
+    <file relUrl="bin/MyService1.pdb" publishTime="11/10/2008 16:12:12" />
+  </publishTarget>
+  <publishTarget publishUrl="ftp://ftp.beatle.cz/wwwroot/">
+    <file relUrl="bin/MyService1.pdb" publishTime="11/10/2008 16:12:12" />
+    <file relUrl="MessagingService.svc" publishTime="11/08/2008 17:21:47" />
+    <file relUrl="bin/MessagingDataDbLibrary.dll" publishTime="11/10/2008 16:12:12" />
+    <file relUrl="bin/MessagingDataDbLibrary.pdb" publishTime="11/10/2008 16:12:11" />
+    <file relUrl="bin/MyService1.dll" publishTime="11/10/2008 16:12:12" />
+    <file relUrl="Web.config" publishTime="11/10/2008 16:14:28" />
+  </publishTarget>
+  <publishTarget publishUrl="ftp://chrobok.aspone.cz/wwwroot/">
+    <file relUrl="MessagingService.svc" publishTime="11/08/2008 17:21:47" />
+    <file relUrl="bin/MessagingDataDbLibrary.dll" publishTime="11/09/2008 17:14:22" />
+    <file relUrl="bin/MessagingDataDbLibrary.pdb" publishTime="11/09/2008 17:14:22" />
+    <file relUrl="bin/MyService1.dll" publishTime="11/09/2008 17:14:23" />
+    <file relUrl="Web.config" publishTime="11/09/2008 13:21:16" />
+    <file relUrl="bin/MyService1.pdb" publishTime="11/09/2008 17:14:23" />
+  </publishTarget>
+  <publishTarget publishUrl="http://localhost/messService/">
+    <file relUrl="bin/MyService1.pdb" publishTime="11/08/2008 19:48:31" />
+    <file relUrl="MessagingService.svc" publishTime="11/08/2008 17:21:47" />
+    <file relUrl="bin/MessagingDataDbLibrary.dll" publishTime="11/08/2008 18:42:12" />
+    <file relUrl="bin/MessagingDataDbLibrary.pdb" publishTime="11/08/2008 18:42:12" />
+    <file relUrl="bin/MyService1.dll" publishTime="11/08/2008 19:48:31" />
+    <file relUrl="Web.config" publishTime="11/08/2008 15:58:43" />
+  </publishTarget>
+  <publishTarget publishUrl="E:\WEBY\service_publish\">
+    <file relUrl="bin/MyService1.pdb" publishTime="11/06/2008 21:25:23" />
+    <file relUrl="bin/MyService1.dll" publishTime="11/06/2008 21:25:23" />
+    <file relUrl="Service1.svc" publishTime="11/06/2008 21:24:35" />
+    <file relUrl="Web.config" publishTime="11/06/2008 21:25:28" />
+  </publishTarget>
+  <publishTarget publishUrl="E:\WEBY\publish_wap3nec\">
+    <file relUrl="bin/MyService1.pdb" publishTime="11/06/2008 21:25:23" />
+    <file relUrl="bin/MyService1.dll" publishTime="11/06/2008 21:25:23" />
+    <file relUrl="Service1.svc" publishTime="11/06/2008 21:24:35" />
+    <file relUrl="Web.config" publishTime="11/06/2008 21:25:28" />
+  </publishTarget>
+</publishData>

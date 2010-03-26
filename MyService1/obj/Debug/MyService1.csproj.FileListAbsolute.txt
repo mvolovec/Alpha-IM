@@ -1,0 +1,34 @@
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MyService1\bin\MyService1.dll
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MyService1\bin\MyService1.pdb
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MyService1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MyService1\obj\Debug\MyService1.dll
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MyService1\obj\Debug\MyService1.pdb
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MyService1\bin\MessagingDataDbLibrary.dll
+C:\Documents and Settings\chrobok\Dokumenty\Visual Studio 2008\Projects\Semestralni_projekt\MyService1\bin\MessagingDataDbLibrary.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\bin\MyService1.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\bin\MyService1.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\bin\MessagingDataDbLibrary.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\bin\MessagingDataDbLibrary.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\obj\Debug\MyService1.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\obj\Debug\MyService1.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\bin\MessDataLayer.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\MyService1\bin\MessDataLayer.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MyService1.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MyService1.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MessagingDataDbLibrary.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MessDataLayer.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MessagingDataDbLibrary.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MessDataLayer.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\ResolveAssemblyReference.cache
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\MyService1.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\MyService1.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MyService1.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MyService1.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MessagingDataDbLibrary.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MessDataLayer.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MessagingDataDbLibrary.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\bin\MessDataLayer.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\ResolveAssemblyReference.cache
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\MyService1.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\MyService1.pdb

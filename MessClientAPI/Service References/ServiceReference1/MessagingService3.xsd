@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MyService1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MyService1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfImUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ImUser" nillable="true" type="tns:ImUser" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfImUser" nillable="true" type="tns:ArrayOfImUser" />
+  <xs:complexType name="ImUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID_USR" type="xs:int" />
+      <xs:element minOccurs="0" name="USR_FIRSTNAME" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="USR_LASTNAME" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="USR_NICK" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="USR_STATUS" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ImUser" nillable="true" type="tns:ImUser" />
+  <xs:complexType name="ArrayOfImMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ImMessage" nillable="true" type="tns:ImMessage" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfImMessage" nillable="true" type="tns:ArrayOfImMessage" />
+  <xs:complexType name="ImMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="C_DATE" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ID_MESSAGE" type="xs:long" />
+      <xs:element minOccurs="0" name="ID_SENDER" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_USR" type="xs:int" />
+      <xs:element minOccurs="0" name="MSG_BODY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MSG_TYPE" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ImMessage" nillable="true" type="tns:ImMessage" />
+</xs:schema>

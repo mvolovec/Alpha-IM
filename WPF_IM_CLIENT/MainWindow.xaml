@@ -1,0 +1,28 @@
+﻿<base:WindowTemplate x:Class="WPF_IM_CLIENT.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:base="clr-namespace:WPF_IM_CLIENT"
+    Title="ContactList" Height="366" Width="200" Loaded="Window_Loaded" Style="{StaticResource AlphaImWindow}" CanResize="True">
+    <Window.Resources>
+    
+    </Window.Resources>
+    <Grid x:Name="RootGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20px" />
+        </Grid.RowDefinitions>
+
+        <ListBox x:Name="listContacts" Background="Transparent" BorderThickness="0" Margin="0" MouseDoubleClick="listContacts_MouseDoubleClick" Grid.Row="0" HorizontalContentAlignment="Stretch" ItemContainerStyle="{StaticResource ContainerStyle}">
+        </ListBox>
+        <DockPanel Grid.Row="1" Background="Transparent">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnLogin" Grid.Column="0" Content="Login" Click="btnLogin_MouseDown" Style="{StaticResource common_button}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <Button Grid.Column="1" Content="Logout"  HorizontalAlignment="Stretch" Style="{StaticResource common_button}" VerticalAlignment="Stretch" />
+            </Grid>
+        </DockPanel>
+    </Grid>
+</base:WindowTemplate>

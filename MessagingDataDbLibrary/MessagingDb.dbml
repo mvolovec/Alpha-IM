@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="NewMessDb" Class="MessagingDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=NewMessDb;Integrated Security=True" SettingsObjectName="MessagingDataDbLibrary.Properties.Settings" SettingsPropertyName="NewMessDbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CONTACTLIST" Member="CONTACTLISTs">
+    <Type Name="CONTACTLIST">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="USR_MAIN" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="USR_CONTACT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="USER_CONTACTLIST" Member="USER" ThisKey="USR_CONTACT" Type="USER" IsForeignKey="true" />
+      <Association Name="USER_CONTACTLIST1" Member="USER1" ThisKey="USR_MAIN" Type="USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GROUPS" Member="GROUPs">
+    <Type Name="GROUP">
+      <Column Name="ID_GROUP" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GRP_NAME" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GRP_TYPE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GRP_STATE" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="C_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="C_USER" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="M_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="M_USER" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="GROUP_USERSOFGROUP" Member="USERSOFGROUPs" OtherKey="ID_GROUP" Type="USERSOFGROUP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MESSAGES" Member="MESSAGEs">
+    <Type Name="MESSAGE">
+      <Column Name="ID_MESSAGE" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MSG_BODY" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MSG_TYPE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="C_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="MESSAGE_MESSTOUSR" Member="MESSTOUSRs" OtherKey="ID_MESSAGE" Type="MESSTOUSR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ROLES" Member="ROLEs">
+    <Type Name="ROLE">
+      <Column Name="ID_ROLE" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ROLE_NAME" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ROLE_NOTE" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Association Name="ROLE_USR2ROLE" Member="USR2ROLEs" OtherKey="ID_ROLE" Type="USR2ROLE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USERS" Member="USERs">
+    <Type Name="USER">
+      <Column Name="ID_USR" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="USR_NICK" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="USR_PASSWORD" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="USR_FIRSTNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="USR_LASTNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="USR_COUNTRY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="USR_POSTCODE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="USR_EMAIL" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="true" />
+      <Column Name="USR_CITY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="USR_STATE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="USR_STATUS" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="C_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="C_USER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="M_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="true" />
+      <Column Name="M_USER" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="true" />
+      <Association Name="USER_CONTACTLIST" Member="CONTACTLISTs" OtherKey="USR_CONTACT" Type="CONTACTLIST" />
+      <Association Name="USER_CONTACTLIST1" Member="CONTACTLISTs1" OtherKey="USR_MAIN" Type="CONTACTLIST" />
+      <Association Name="USER_USERSOFGROUP" Member="USERSOFGROUPs" OtherKey="ID_USR" Type="USERSOFGROUP" />
+      <Association Name="USER_USR2ROLE" Member="USR2ROLEs" OtherKey="ID_USR" Type="USR2ROLE" />
+      <Association Name="USER_MESSTOUSR" Member="MESSTOUSRs" OtherKey="ID_SENDER" Type="MESSTOUSR" />
+      <Association Name="USER_MESSTOUSR1" Member="MESSTOUSRs1" OtherKey="ID_USR" Type="MESSTOUSR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USERSOFGROUP" Member="USERSOFGROUPs">
+    <Type Name="USERSOFGROUP">
+      <Column Name="ID_USROFGROUP" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_USR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_GROUP" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="GROUP_USERSOFGROUP" Member="GROUP" ThisKey="ID_GROUP" Type="GROUP" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="USER_USERSOFGROUP" Member="USER" ThisKey="ID_USR" Type="USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USR2ROLE" Member="USR2ROLEs">
+    <Type Name="USR2ROLE">
+      <Column Name="ID_USR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_ROLE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ROLE_USR2ROLE" Member="ROLE" ThisKey="ID_ROLE" Type="ROLE" IsForeignKey="true" />
+      <Association Name="USER_USR2ROLE" Member="USER" ThisKey="ID_USR" Type="USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MESSTOUSR" Member="MESSTOUSRs">
+    <Type Name="MESSTOUSR">
+      <Column Name="ID_MSGSEND" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_USR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_MESSAGE" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="ID_SENDER" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MSG_STATE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="MESSAGE_MESSTOUSR" Member="MESSAGE" ThisKey="ID_MESSAGE" Type="MESSAGE" IsForeignKey="true" />
+      <Association Name="USER_MESSTOUSR" Member="USER" ThisKey="ID_SENDER" Type="USER" IsForeignKey="true" />
+      <Association Name="USER_MESSTOUSR1" Member="USER1" ThisKey="ID_USR" Type="USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

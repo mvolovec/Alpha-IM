@@ -1,0 +1,15 @@
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WCFMessagingService\bin\WCFMessagingService.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WCFMessagingService\bin\WCFMessagingService.pdb
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WCFMessagingService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WCFMessagingService\obj\Debug\WCFMessagingService.dll
+C:\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\WCFMessagingService\obj\Debug\WCFMessagingService.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\bin\WCFMessagingService.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\bin\WCFMessagingService.pdb
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\obj\Debug\ResolveAssemblyReference.cache
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\obj\Debug\WCFMessagingService.dll
+D:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\obj\Debug\WCFMessagingService.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\bin\WCFMessagingService.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\bin\WCFMessagingService.pdb
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\obj\Debug\ResolveAssemblyReference.cache
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\obj\Debug\WCFMessagingService.dll
+I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WCFMessagingService\obj\Debug\WCFMessagingService.pdb

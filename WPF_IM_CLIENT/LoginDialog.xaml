@@ -1,0 +1,16 @@
+﻿<base:WindowTemplate x:Class="WPF_IM_CLIENT.LoginDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:base="clr-namespace:WPF_IM_CLIENT"
+    Title="LoginDialog" Height="300" Width="300" Loaded="WindowTemplate_Loaded" CanResize="False" Style="{StaticResource AlphaImWindow}">
+    <Grid>
+        <GroupBox Margin="10,10,10,10" FontWeight="Bold">
+            <GroupBox.Header>
+                Mindcracker Network
+            </GroupBox.Header>
+            <TextBlock FontSize="12" FontWeight="Regular">
+                This is a group box control content.
+            </TextBlock>
+        </GroupBox>
+    </Grid>
+</base:WindowTemplate>
