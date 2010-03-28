@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MessClientAPI.MessServiceApi;
 
 namespace WPF_IM_CLIENT
 {
@@ -18,6 +19,10 @@ namespace WPF_IM_CLIENT
     /// </summary>
     public partial class ChatWindow : WindowTemplate
     {
+        #region properties
+        public ImUser chatWithUser { get; set; }
+        #endregion
+
         public ChatWindow()
         {
             InitializeComponent();
@@ -25,7 +30,49 @@ namespace WPF_IM_CLIENT
 
         private void WindowTemplate_Loaded(object sender, RoutedEventArgs e)
         {
-            base.Window_Loaded();
+            if (chatWithUser != null)
+            {
+                Title = "Konverzace s " + chatWithUser.USR_NICK;
+            }
+            List<ImMessage> list = new List<ImMessage>();
+            list.Add(new ImMessage() { MSG_BODY = "Nejaky text kter7 nemus9 b7t sfsadfkj a sdkfjah sdfkjas dfl", ID_SENDER = 10, C_DATE = DateTime.Now });
+            list.Add(new ImMessage() { MSG_BODY = "Nejaky text kter7 nemus9 b7t sfsadfkj a sdkfjah sdfkjas dfl", C_DATE = DateTime.Now });
+            list.Add(new ImMessage() { MSG_BODY = "Nejaky text kter7 nemus9 b7t sfsadfkj a sdkfjah sdfkjas dfl", ID_SENDER = 10, C_DATE = DateTime.Now });
+            list.Add(new ImMessage() { MSG_BODY = "Nejaky text kter7 nemus9 b7t sfsadfkj a sdkfjah sdfkjas dfl", C_DATE = DateTime.Now });
+            list.Add(new ImMessage() { MSG_BODY = "Nejaky text kter7 nemus9 b7t sfsadfkj a sdkfjah sdfkjas dfl", ID_SENDER = 10, C_DATE = DateTime.Now });
+            list.Add(new ImMessage() { MSG_BODY = "Nejaky text kter7 nemus9 b7t sfsadfkj a sdkfjah sdfkjas dfl", C_DATE = DateTime.Now });
+            list.Add(new ImMessage() { MSG_BODY = "Nejaky text kter7 nemus9 b7t sfsadfkj a sdkfjah sdfkjas dfl", ID_SENDER = 10, C_DATE = DateTime.Now });
+            chatWithUser = new ImUser() { USR_NICK = "Karel" };
+
+            InsertNewMessages(list);
+        }
+
+        private void InsertNewMessages(IEnumerable<ImMessage> listMessages)
+        {
+            foreach (var imm in listMessages)
+            {
+                pConversation.Inlines.Add(new TextBlock() 
+                { 
+                    Text = ((imm.ID_SENDER != 0) ? chatWithUser.USR_NICK + ": " : "Já: ") + string.Format("({0} {1})", imm.C_DATE.ToShortDateString(), imm.C_DATE.ToShortTimeString()), 
+                    Foreground = (imm.ID_SENDER != 0) ? Brushes.Blue : Brushes.Red, 
+                    FontWeight = FontWeights.Bold 
+                });
+
+                pConversation.Inlines.Add(new LineBreak());
+                pConversation.Inlines.Add(new Run(imm.MSG_BODY));
+                pConversation.Inlines.Add(new LineBreak());
+            }
+
+            fdsvConversation.FindScrollViewer().ScrollToBottom();
+        }
+
+        private void WindowTemplate_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+        }
+
+        private void btnSendMessage_Click(object sender, RoutedEventArgs e)
+        {
+            fdsvConversation.Zoom += 10;
         }
     }
 }

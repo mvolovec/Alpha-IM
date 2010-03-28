@@ -16,3 +16,9 @@ I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessClientAPI\obj\Debug\ResolveAssemblyReference.cache
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessClientAPI\obj\Debug\MessClientAPI.dll
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessClientAPI\obj\Debug\MessClientAPI.pdb
+D:\tmp\Alpha IM\MessClientAPI\bin\Debug\MessClientAPI.dll.config
+D:\tmp\Alpha IM\MessClientAPI\bin\Debug\MessClientAPI.dll
+D:\tmp\Alpha IM\MessClientAPI\bin\Debug\MessClientAPI.pdb
+D:\tmp\Alpha IM\MessClientAPI\obj\Debug\ResolveAssemblyReference.cache
+D:\tmp\Alpha IM\MessClientAPI\obj\Debug\MessClientAPI.dll
+D:\tmp\Alpha IM\MessClientAPI\obj\Debug\MessClientAPI.pdb

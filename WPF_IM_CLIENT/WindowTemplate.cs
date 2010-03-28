@@ -28,6 +28,8 @@ namespace WPF_IM_CLIENT
                 _canResize = value;
             }
         }
+        public Window ParentWindow { get; set; }
+        public List<Window> ChildWindows { get; set; }
         #endregion
 
 
@@ -40,9 +42,13 @@ namespace WPF_IM_CLIENT
         public WindowTemplate()
         {
             this.SourceInitialized += new EventHandler(InitializeWindowSource);
+
+            this.Loaded += new RoutedEventHandler(WindowTemplate_Loaded);
+
+            ChildWindows = new List<Window>();
         }
 
-        public virtual void Window_Loaded()
+        void WindowTemplate_Loaded(object sender, RoutedEventArgs e)
         {
             HandlersSetUp();
         }
@@ -64,6 +70,8 @@ namespace WPF_IM_CLIENT
 
             this._dragWindow.MouseLeftButtonDown += new System.Windows.Input.MouseButtonEventHandler(_dragWindow_MouseLeftButtonDown);
 
+            this.Closing += new System.ComponentModel.CancelEventHandler(WindowTemplate_Closing);
+
             if (CanResize)
             {
                 this._resizeButton.MouseMove += new MouseEventHandler(DisplayResizeCursor);
@@ -72,6 +80,11 @@ namespace WPF_IM_CLIENT
             }
             else
                 this._resizeButton.Visibility = Visibility.Hidden;
+        }
+
+        void WindowTemplate_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            
         }
 
         void _maximize_Click(object sender, RoutedEventArgs e)

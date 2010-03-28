@@ -22,3 +22,9 @@ I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\ResolveAssemblyReference.cache
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.dll
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.pdb
+D:\tmp\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll.config
+D:\tmp\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.dll
+D:\tmp\Alpha IM\MessagingDataDbLibrary\bin\Debug\MessagingDataDbLibrary.pdb
+D:\tmp\Alpha IM\MessagingDataDbLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\tmp\Alpha IM\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.dll
+D:\tmp\Alpha IM\MessagingDataDbLibrary\obj\Debug\MessagingDataDbLibrary.pdb

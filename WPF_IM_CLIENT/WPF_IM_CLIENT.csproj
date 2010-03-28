@@ -78,9 +78,13 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="StylesDictionary.xaml">
+    <Page Include="Styles\StylesDictionary.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ChatWindowStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -91,10 +95,14 @@
     <Compile Include="ChatWindow.xaml.cs">
       <DependentUpon>ChatWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\ChatWindowNickNameConverter.cs" />
+    <Compile Include="Converters\ChatWindowColorConverter.cs" />
     <Compile Include="Converters\ImageConverter.cs" />
+    <Compile Include="ImClientExtensions.cs" />
     <Compile Include="LoginDialog.xaml.cs">
       <DependentUpon>LoginDialog.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LoginEventArgs.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -112,6 +120,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Converters\WindowSizeConverter.cs" />
+    <Compile Include="WindowManager.cs" />
     <Compile Include="WindowTemplate.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -136,127 +145,124 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\about.png" />
-    <Resource Include="Images\add.png" />
-    <Resource Include="Images\address book.png" />
-    <Resource Include="Images\adim.png" />
-    <Resource Include="Images\app.png" />
-    <Resource Include="Images\applications.png" />
-    <Resource Include="Images\apply.png" />
-    <Resource Include="Images\apps.png" />
-    <Resource Include="Images\back.png" />
-    <Resource Include="Images\ball_green.png" />
-    <Resource Include="Images\ball_red.png" />
-    <Resource Include="Images\ball_yellow.png" />
-    <Resource Include="Images\bookmark.png" />
-    <Resource Include="Images\calculator.png" />
-    <Resource Include="Images\calendar.png" />
-    <Resource Include="Images\cancel.png" />
-    <Resource Include="Images\cd.png" />
-    <Resource Include="Images\chart.png" />
-    <Resource Include="Images\chat.png" />
-    <Resource Include="Images\computer.png" />
-    <Resource Include="Images\configure.png" />
-    <Resource Include="Images\copy.png" />
-    <Resource Include="Images\cut.png" />
-    <Resource Include="Images\database.png" />
-    <Resource Include="Images\del.png" />
-    <Resource Include="Images\delete.png" />
-    <Resource Include="Images\documents.png" />
-    <Resource Include="Images\down.png" />
-    <Resource Include="Images\download.png" />
-    <Resource Include="Images\edit.png" />
-    <Resource Include="Images\energy.png" />
-    <Resource Include="Images\export.png" />
-    <Resource Include="Images\fast forward.png" />
-    <Resource Include="Images\favorites.png" />
-    <Resource Include="Images\favorites_new.png" />
-    <Resource Include="Images\fax.png" />
-    <Resource Include="Images\file_apply.png" />
-    <Resource Include="Images\file_cancel.png" />
-    <Resource Include="Images\file_del.png" />
-    <Resource Include="Images\file_find.png" />
-    <Resource Include="Images\file_locked.png" />
-    <Resource Include="Images\file_temp.png" />
-    <Resource Include="Images\file_web.png" />
-    <Resource Include="Images\flag.png" />
-    <Resource Include="Images\folder.png" />
-    <Resource Include="Images\folder_find.png" />
-    <Resource Include="Images\folder_new.png" />
-    <Resource Include="Images\forward.png" />
-    <Resource Include="Images\games.png" />
-    <Resource Include="Images\go.png" />
-    <Resource Include="Images\hard disk.png" />
-    <Resource Include="Images\help.png" />
-    <Resource Include="Images\history.png" />
-    <Resource Include="Images\home.png" />
-    <Resource Include="Images\import.png" />
-    <Resource Include="Images\info2.png" />
-    <Resource Include="Images\key.png" />
-    <Resource Include="Images\large_icons.png" />
-    <Resource Include="Images\lock.png" />
-    <Resource Include="Images\mail.png" />
-    <Resource Include="Images\map.png" />
-    <Resource Include="Images\money.png" />
-    <Resource Include="Images\move.png" />
-    <Resource Include="Images\music.png" />
-    <Resource Include="Images\music2.png" />
-    <Resource Include="Images\network.png" />
-    <Resource Include="Images\network_app.png" />
-    <Resource Include="Images\network_find.png" />
-    <Resource Include="Images\new.png" />
-    <Resource Include="Images\notepad.png" />
-    <Resource Include="Images\object.png" />
-    <Resource Include="Images\open.png" />
-    <Resource Include="Images\options.png" />
-    <Resource Include="Images\pack.png" />
-    <Resource Include="Images\pack2.png" />
-    <Resource Include="Images\paint.png" />
-    <Resource Include="Images\paste.png" />
-    <Resource Include="Images\pause.png" />
-    <Resource Include="Images\phone.png" />
-    <Resource Include="Images\pictures.png" />
-    <Resource Include="Images\play.png" />
-    <Resource Include="Images\preferences.png" />
-    <Resource Include="Images\print.png" />
-    <Resource Include="Images\print_preview.png" />
-    <Resource Include="Images\redo.png" />
-    <Resource Include="Images\refresh.png" />
-    <Resource Include="Images\rewind.png" />
-    <Resource Include="Images\save as.png" />
-    <Resource Include="Images\save.png" />
-    <Resource Include="Images\save_as_2.png" />
-    <Resource Include="Images\search.png" />
-    <Resource Include="Images\shopping cart.png" />
-    <Resource Include="Images\shopping cart2.png" />
-    <Resource Include="Images\skip forward.png" />
-    <Resource Include="Images\star.png" />
-    <Resource Include="Images\stop.png" />
-    <Resource Include="Images\tools.png" />
-    <Resource Include="Images\trash.png" />
-    <Resource Include="Images\undo.png" />
-    <Resource Include="Images\unlocked.png" />
-    <Resource Include="Images\up.png" />
-    <Resource Include="Images\upload.png" />
-    <Resource Include="Images\user.png" />
-    <Resource Include="Images\users.png" />
-    <Resource Include="Images\web_conect.png" />
-    <Resource Include="Images\web_link.png" />
-    <Resource Include="Images\web_server.png" />
-    <Resource Include="Images\wizard.png" />
-    <Resource Include="Images\zoom_in.png" />
-    <Resource Include="Images\zoom_out.png" />
+    <Resource Include="Styles\Images\about.png" />
+    <Resource Include="Styles\Images\add.png" />
+    <Resource Include="Styles\Images\address book.png" />
+    <Resource Include="Styles\Images\adim.png" />
+    <Resource Include="Styles\Images\app.png" />
+    <Resource Include="Styles\Images\applications.png" />
+    <Resource Include="Styles\Images\apply.png" />
+    <Resource Include="Styles\Images\apps.png" />
+    <Resource Include="Styles\Images\back.png" />
+    <Resource Include="Styles\Images\ball_green.png" />
+    <Resource Include="Styles\Images\ball_red.png" />
+    <Resource Include="Styles\Images\ball_yellow.png" />
+    <Resource Include="Styles\Images\bookmark.png" />
+    <Resource Include="Styles\Images\calculator.png" />
+    <Resource Include="Styles\Images\calendar.png" />
+    <Resource Include="Styles\Images\cancel.png" />
+    <Resource Include="Styles\Images\cd.png" />
+    <Resource Include="Styles\Images\chart.png" />
+    <Resource Include="Styles\Images\chat.png" />
+    <Resource Include="Styles\Images\computer.png" />
+    <Resource Include="Styles\Images\configure.png" />
+    <Resource Include="Styles\Images\copy.png" />
+    <Resource Include="Styles\Images\cut.png" />
+    <Resource Include="Styles\Images\database.png" />
+    <Resource Include="Styles\Images\del.png" />
+    <Resource Include="Styles\Images\delete.png" />
+    <Resource Include="Styles\Images\documents.png" />
+    <Resource Include="Styles\Images\down.png" />
+    <Resource Include="Styles\Images\download.png" />
+    <Resource Include="Styles\Images\edit.png" />
+    <Resource Include="Styles\Images\energy.png" />
+    <Resource Include="Styles\Images\export.png" />
+    <Resource Include="Styles\Images\fast forward.png" />
+    <Resource Include="Styles\Images\favorites.png" />
+    <Resource Include="Styles\Images\favorites_new.png" />
+    <Resource Include="Styles\Images\fax.png" />
+    <Resource Include="Styles\Images\file_apply.png" />
+    <Resource Include="Styles\Images\file_cancel.png" />
+    <Resource Include="Styles\Images\file_del.png" />
+    <Resource Include="Styles\Images\file_find.png" />
+    <Resource Include="Styles\Images\file_locked.png" />
+    <Resource Include="Styles\Images\file_temp.png" />
+    <Resource Include="Styles\Images\file_web.png" />
+    <Resource Include="Styles\Images\flag.png" />
+    <Resource Include="Styles\Images\folder.png" />
+    <Resource Include="Styles\Images\folder_find.png" />
+    <Resource Include="Styles\Images\folder_new.png" />
+    <Resource Include="Styles\Images\forward.png" />
+    <Resource Include="Styles\Images\games.png" />
+    <Resource Include="Styles\Images\go.png" />
+    <Resource Include="Styles\Images\hard disk.png" />
+    <Resource Include="Styles\Images\help.png" />
+    <Resource Include="Styles\Images\history.png" />
+    <Resource Include="Styles\Images\home.png" />
+    <Resource Include="Styles\Images\import.png" />
+    <Resource Include="Styles\Images\info2.png" />
+    <Resource Include="Styles\Images\key.png" />
+    <Resource Include="Styles\Images\large_icons.png" />
+    <Resource Include="Styles\Images\lock.png" />
+    <Resource Include="Styles\Images\mail.png" />
+    <Resource Include="Styles\Images\map.png" />
+    <Resource Include="Styles\Images\money.png" />
+    <Resource Include="Styles\Images\move.png" />
+    <Resource Include="Styles\Images\music.png" />
+    <Resource Include="Styles\Images\music2.png" />
+    <Resource Include="Styles\Images\network.png" />
+    <Resource Include="Styles\Images\network_app.png" />
+    <Resource Include="Styles\Images\network_find.png" />
+    <Resource Include="Styles\Images\new.png" />
+    <Resource Include="Styles\Images\notepad.png" />
+    <Resource Include="Styles\Images\object.png" />
+    <Resource Include="Styles\Images\open.png" />
+    <Resource Include="Styles\Images\options.png" />
+    <Resource Include="Styles\Images\pack.png" />
+    <Resource Include="Styles\Images\pack2.png" />
+    <Resource Include="Styles\Images\paint.png" />
+    <Resource Include="Styles\Images\paste.png" />
+    <Resource Include="Styles\Images\pause.png" />
+    <Resource Include="Styles\Images\phone.png" />
+    <Resource Include="Styles\Images\pictures.png" />
+    <Resource Include="Styles\Images\play.png" />
+    <Resource Include="Styles\Images\preferences.png" />
+    <Resource Include="Styles\Images\print.png" />
+    <Resource Include="Styles\Images\print_preview.png" />
+    <Resource Include="Styles\Images\redo.png" />
+    <Resource Include="Styles\Images\refresh.png" />
+    <Resource Include="Styles\Images\rewind.png" />
+    <Resource Include="Styles\Images\save as.png" />
+    <Resource Include="Styles\Images\save.png" />
+    <Resource Include="Styles\Images\save_as_2.png" />
+    <Resource Include="Styles\Images\search.png" />
+    <Resource Include="Styles\Images\shopping cart.png" />
+    <Resource Include="Styles\Images\shopping cart2.png" />
+    <Resource Include="Styles\Images\skip forward.png" />
+    <Resource Include="Styles\Images\star.png" />
+    <Resource Include="Styles\Images\stop.png" />
+    <Resource Include="Styles\Images\tools.png" />
+    <Resource Include="Styles\Images\trash.png" />
+    <Resource Include="Styles\Images\undo.png" />
+    <Resource Include="Styles\Images\unlocked.png" />
+    <Resource Include="Styles\Images\up.png" />
+    <Resource Include="Styles\Images\upload.png" />
+    <Resource Include="Styles\Images\user.png" />
+    <Resource Include="Styles\Images\users.png" />
+    <Resource Include="Styles\Images\web_conect.png" />
+    <Resource Include="Styles\Images\web_link.png" />
+    <Resource Include="Styles\Images\web_server.png" />
+    <Resource Include="Styles\Images\wizard.png" />
+    <Resource Include="Styles\Images\zoom_in.png" />
+    <Resource Include="Styles\Images\zoom_out.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\win_corner.png" />
+    <Resource Include="Styles\Images\win_corner.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\win_close.png" />
-    <Resource Include="Images\win_maximize.png" />
-    <Resource Include="Images\win_minimize.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Styles\" />
+    <Resource Include="Styles\Images\win_close.png" />
+    <Resource Include="Styles\Images\win_maximize.png" />
+    <Resource Include="Styles\Images\win_minimize.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

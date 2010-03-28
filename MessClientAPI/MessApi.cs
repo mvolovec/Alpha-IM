@@ -6,28 +6,6 @@ using MessClientAPI.MessServiceApi;
 
 namespace MessClientAPI
 {
-    #region enums
-    public enum UsrState
-    {
-        aktivni,
-        blokovany,
-        neaktivni
-    }
-
-    public enum UsrStatus
-    {
-        online,
-        offline,
-        invisible
-    }
-
-    public enum MsgState
-    {
-        New,
-        Old
-    }
-    #endregion
-
     public class MessApi
     {
         
@@ -173,6 +151,28 @@ namespace MessClientAPI
                     List<ImUser> users = new List<ImUser>(api.Contact_GetAllContacts().ToList());
                     api.Close();
                     return users;
+                }
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Vraci objekt uzivatele dle jeho ID
+        /// </summary>
+        /// <param name="id_usr"></param>
+        /// <returns></returns>
+        public static ImUser Contact_GetContactById(int id_usr)
+        {
+            try
+            {
+                using (MessagingServiceClient api = new MessagingServiceClient())
+                {
+                    ImUser user = api.Contact_GetAllContacts().Where(c => c.ID_USR.Equals(id_usr)).FirstOrDefault();
+                    api.Close();
+                    return user;
                 }
             }
             catch (Exception)

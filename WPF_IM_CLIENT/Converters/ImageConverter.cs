@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Data;
 using System.Windows.Media.Imaging;
 
-namespace WPF_IM_CLIENT
+namespace WPF_IM_CLIENT.Converters
 {
     public sealed class ImageConverter : IValueConverter
     {

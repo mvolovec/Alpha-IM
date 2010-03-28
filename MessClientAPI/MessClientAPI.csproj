@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MessApi.cs" />
+    <Compile Include="MessClientEnums.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\MessServiceApi\Reference.cs">
       <AutoGen>True</AutoGen>

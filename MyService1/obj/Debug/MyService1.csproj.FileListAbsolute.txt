@@ -32,3 +32,12 @@ I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\ResolveAssemblyReference.cache
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\MyService1.dll
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\MyService1\obj\Debug\MyService1.pdb
+D:\tmp\Alpha IM\MyService1\bin\MyService1.dll
+D:\tmp\Alpha IM\MyService1\bin\MyService1.pdb
+D:\tmp\Alpha IM\MyService1\bin\MessagingDataDbLibrary.dll
+D:\tmp\Alpha IM\MyService1\bin\MessDataLayer.dll
+D:\tmp\Alpha IM\MyService1\bin\MessagingDataDbLibrary.pdb
+D:\tmp\Alpha IM\MyService1\bin\MessDataLayer.pdb
+D:\tmp\Alpha IM\MyService1\obj\Debug\ResolveAssemblyReference.cache
+D:\tmp\Alpha IM\MyService1\obj\Debug\MyService1.dll
+D:\tmp\Alpha IM\MyService1\obj\Debug\MyService1.pdb

@@ -67,3 +67,6 @@ I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.Properties.Resources.resources
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.RegistrationWindow.resources
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WinClient1\obj\Debug\WinClient1.csproj.GenerateResource.Cache
+D:\tmp\Alpha IM\WinClient1\bin\Debug\WinClient1.exe.config
+D:\tmp\Alpha IM\WinClient1\obj\Debug\WinClient1.exe
+D:\tmp\Alpha IM\WinClient1\obj\Debug\WinClient1.pdb

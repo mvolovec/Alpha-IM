@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Data;
 
-namespace WPF_IM_CLIENT
+namespace WPF_IM_CLIENT.Converters
 {
     class WindowSizeConverter : IValueConverter
     {

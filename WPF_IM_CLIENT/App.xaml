@@ -2,11 +2,12 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:alpha="clr-namespace:WPF_IM_CLIENT"
-    StartupUri="LoginDialog.xaml">
+    StartupUri="ChatWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="StylesDictionary.xaml" />
+                <ResourceDictionary Source="\Styles\StylesDictionary.xaml" />
+                <ResourceDictionary Source="\Styles\ChatWindowStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

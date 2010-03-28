@@ -2,12 +2,12 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:base="clr-namespace:WPF_IM_CLIENT"
-    Title="ChatWindow" Height="300" Width="300" CanResize="True" Loaded="WindowTemplate_Loaded" Style="{StaticResource AlphaImWindow}">
+    Title="ChatWindow" Height="400" Width="400" SnapsToDevicePixels="True" CanResize="True" Closing="WindowTemplate_Closing" Loaded="WindowTemplate_Loaded" Style="{StaticResource AlphaImWindow}">
     <Grid Margin="5">
         <Grid.RowDefinitions>
             <RowDefinition Height="70*" />
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="30" />
+            <RowDefinition Height="45" />
             <RowDefinition Height="25" />
         </Grid.RowDefinitions>
         <GridSplitter 
@@ -19,8 +19,18 @@
             VerticalAlignment="Stretch"
             Margin="0"
             />
-        <RichTextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Row="0" />
-        <RichTextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Row="2" />
-        <Button Style="{StaticResource common_button}" Grid.Row="3" Content="Odeslat" HorizontalAlignment="Right" VerticalAlignment="Stretch" />
+        
+        <FlowDocumentScrollViewer Padding="0" Margin="0" x:Name="fdsvConversation"  BorderThickness="1" BorderBrush="#E0E0E0">
+            <FlowDocument x:Name="fdConversation" FontFamily="Tahoma" FontSize="11" PagePadding="3" Background="White">
+                <Paragraph x:Name="pConversation" Margin="0" Padding="0">
+                    <Paragraph.Inlines>
+                    </Paragraph.Inlines>
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        
+        <RichTextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Row="2">
+        </RichTextBox>
+        <Button Style="{StaticResource common_button}" x:Name="btnSendMessage" Grid.Row="3" Click="btnSendMessage_Click" Content="Odeslat" HorizontalAlignment="Right" VerticalAlignment="Stretch" />
     </Grid>
 </base:WindowTemplate>

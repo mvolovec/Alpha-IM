@@ -63,3 +63,31 @@ I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WPF_IM_CLIENT\obj\Debug\LoginDialog.g.cs
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WPF_IM_CLIENT\obj\Debug\ChatWindow.g.cs
 I:\ZALOHA_KOMPLET_C\Documents and Settings\chrobok\Dokumenty\sem_projekt_complet\Semestralni_projekt\Alpha IM\WPF_IM_CLIENT\obj\Debug\ChatWindow.baml
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\WPF_IM_CLIENT.exe.config
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\WPF_IM_CLIENT.exe
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\WPF_IM_CLIENT.pdb
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\WPF_IM_CLIENT.exe
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\WPF_IM_CLIENT.pdb
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\MessClientAPI.dll
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\MessDataLayer.dll
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\MessagingDataDbLibrary.dll
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\MessagingDataDbLibrary.pdb
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\MessDataLayer.pdb
+D:\tmp\Alpha IM\WPF_IM_CLIENT\bin\Debug\MessClientAPI.pdb
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\ResolveAssemblyReference.cache
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\ChatWindow.g.cs
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\LoginDialog.g.cs
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\MainWindow.g.cs
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\App.g.cs
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\WPF_IM_CLIENT_MarkupCompile.cache
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\WPF_IM_CLIENT_MarkupCompile.lref
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\App.baml
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\ChatWindow.baml
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\LoginDialog.baml
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\MainWindow.baml
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\WPF_IM_CLIENT.g.resources
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\WPF_IM_CLIENT.Properties.Resources.resources
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\WPF_IM_CLIENT.csproj.GenerateResource.Cache
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\Styles\ChatWindowStyle.baml
+D:\tmp\Alpha IM\WPF_IM_CLIENT\obj\Debug\Styles\StylesDictionary.baml

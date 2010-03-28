@@ -1,5 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:WPF_IM_CLIENT" >
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:WPF_IM_CLIENT.Converters" >
 
     <local:ImageConverter x:Key="ImageConverter" />
     <local:WindowSizeConverter x:Key="WindowSizeConverter" />
@@ -159,6 +159,7 @@
                         <!--BorderThickness="" BorderBrush=""-->
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="BorderThickness" TargetName="btnBorder" Value="1" />
+                            <Setter Property="Margin" TargetName="btnBorder" Value="0" />
                             <Setter Property="BorderBrush" TargetName="btnBorder" Value="#6A6A6A" />
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
@@ -212,17 +213,17 @@
                                         <ColumnDefinition Width="*" />
                                         <ColumnDefinition Width="50" />
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock x:Name="HeaderTitle" Grid.Column="0" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#333333" Text="{TemplateBinding Title}">
+                                    <TextBlock x:Name="HeaderTitle" Margin="10,0,0,0" Grid.Column="0" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#333333" Text="{TemplateBinding Title}">
                                     </TextBlock>
                                     <WrapPanel Grid.Column="1" Margin="0,5,5,0" HorizontalAlignment="Right">
                                         <Button x:Name="btnMinimize" Style="{StaticResource win_buttons}">
-                                            <Image Source="Images\win_minimize.png" Height="8" Width="10" />
+                                            <Image Source="\Styles\Images\win_minimize.png" Height="8" Width="10" />
                                         </Button>
                                         <!--<Button x:Name="btnMaximize" Style="{StaticResource win_buttons}">
                                             <Image Source="Images\win_maximize.png" Height="8" Width="10" />
                                         </Button>-->
                                         <Button x:Name="btnClose" Style="{StaticResource win_buttons}">
-                                            <Image Source="Images\win_close.png" Height="8" Width="10" />
+                                            <Image Source="\Styles\Images\win_close.png" Height="8" Width="10" />
                                         </Button>
                                     </WrapPanel>
                                 </Grid>
